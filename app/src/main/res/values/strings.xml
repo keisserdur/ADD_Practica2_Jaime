@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ADD_Practica2_Jaime</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_recta">Receta</string>
+    <string name="title_activity_add_ingrediente">AddIngrediente</string>
+    <string name="title_activity_add_receta">AddReceta</string>
+    <string name="str_add">+</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_instrucciones">Instrucciones</string>
+    <string name="str_Ingredientes">Ingredientes</string>
+    <string name="str_return"><![CDATA[<]]></string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_editar">Editar</string>
+    <string name="str_borrar">Borrar</string>
+
+</resources>

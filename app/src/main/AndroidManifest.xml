@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.add_practica2_jaime">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interfaz.AddReceta"
+            android:label="@string/title_activity_add_receta"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Interfaz.AddIngrediente"
+            android:label="@string/title_activity_add_ingrediente"
+            android:theme="@style/Dialog" />
+        <activity
+            android:name=".Interfaz.VerReceta"
+            android:label="@string/title_activity_recta"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Interfaz.VerIngrediente"
+            android:label="@string/title_activity_add_ingrediente"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Editar.Editar" />
+        <activity android:name=".Editar.EditarIngrediente"></activity>
+    </application>
+
+</manifest>
